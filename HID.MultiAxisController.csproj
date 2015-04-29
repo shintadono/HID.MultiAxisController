@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86B63E5C-AA36-42BA-80BA-10057808D0E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HID.MultiAxisController</RootNamespace>
+    <AssemblyName>HID.MultiAxisController</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\HID.MultiAxisController.XML</DocumentationFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\HID.MultiAxisController.XML</DocumentationFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProductID.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpaceMouse.cs" />
+    <Compile Include="SpaceMouseButtons.cs" />
+    <Compile Include="SpaceMouseButtonsEvent.cs" />
+    <Compile Include="SpaceMouseButtonsEventData.cs" />
+    <Compile Include="SpaceMouseEventHeader.cs" />
+    <Compile Include="SpaceMouseEventType.cs" />
+    <Compile Include="SpaceMouseRotationEvent.cs" />
+    <Compile Include="SpaceMouseRotationEventData.cs" />
+    <Compile Include="SpaceMouseTranslationEvent.cs" />
+    <Compile Include="SpaceMouseTranslationEventData.cs" />
+    <Compile Include="SpaceMouseTranslationRotationEvent.cs" />
+    <Compile Include="SpaceMouseTranslationRotationEventData.cs" />
+    <Compile Include="VendorID.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Win32\Win32.csproj">
+      <Project>{c591df17-5ac8-4ae0-af18-cf752e4e7d53}</Project>
+      <Name>Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
