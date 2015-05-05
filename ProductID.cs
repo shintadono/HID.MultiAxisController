@@ -15,58 +15,58 @@ namespace HID.MultiAxisController
 		public const uint Aerion=0x2013;
 
 		/// <summary>
-		/// SpaceMouse
+		/// SpaceMouse Plus
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceMouse=0xC603;
+		public const uint SpaceMousePlus=0xc603;
 
 		/// <summary>
 		/// CAD Man
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint CADMan=0xC605;
+		public const uint CADMan=0xc605;
 
 		/// <summary>
 		/// SpaceMouse Classic
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceMouseClassic=0xC606;
+		public const uint SpaceMouseClassic=0xc606;
 
 		/// <summary>
 		/// SpaceBall 5000
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceBall5000=0xC621;
+		public const uint SpaceBall5000=0xc621;
 
 		/// <summary>
 		/// SpaceTraveler
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceTraveler=0xC623;
+		public const uint SpaceTraveler=0xc623;
 
 		/// <summary>
 		/// SpacePilot
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpacePilot=0xC625;
+		public const uint SpacePilot=0xc625;
 
 		/// <summary>
 		/// SpaceNavigator
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceNavigator=0xC626;
+		public const uint SpaceNavigator=0xc626;
 
 		/// <summary>
 		/// SpaceExplorer
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceExplorer=0xC627;
+		public const uint SpaceExplorer=0xc627;
 
 		/// <summary>
 		/// SpaceNavigator for Notebooks
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.Logitech"/>.</remarks>
-		public const uint SpaceNavigatorforNotebooks=0xC628;
+		public const uint SpaceNavigatorforNotebooks=0xc628;
 
 		/// <summary>
 		/// SpacePilot Pro
@@ -81,27 +81,51 @@ namespace HID.MultiAxisController
 		public const uint SpaceMousePro=0xc62b;
 
 		/// <summary>
-		/// SpaceMouse Wireless 1
+		/// SpaceMouse Touch
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
-		public const uint SpaceMouseWireless1=0xc62e;
+		public const uint SpaceMouseTouch=0xc62c;
 
 		/// <summary>
-		/// SpaceMouse Wireless 2
+		/// SpaceMouse
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
-		public const uint SpaceMouseWireless2=0xc62f;
+		public const uint SpaceMouse=0xc62d;
 
 		/// <summary>
-		/// SpaceMouse Wireless 3
+		/// SpaceMouse Wireless
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
-		public const uint SpaceMouseWireless3=0xc631;
+		public const uint SpaceMouseWireless=0xc62e;
+
+		/// <summary>
+		/// SpaceMouse Wireless Receiver
+		/// </summary>
+		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
+		public const uint SpaceMouseWirelessReceiver=0xc62f;
 
 		/// <summary>
 		/// SpaceMouse Pro Wireless
 		/// </summary>
 		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
-		public const uint SpaceMouseProWireless=0xc632;
+		public const uint SpaceMouseProWireless=0xc631;
+
+		/// <summary>
+		/// SpaceMouse Pro Wireless Receiver
+		/// </summary>
+		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
+		public const uint SpaceMouseProWirelessReceiver=0xc632;
+
+		/// <summary>
+		/// Scout
+		/// </summary>
+		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
+		public const uint Scout=0xc641;
+
+		/// <summary>
+		/// Euclid
+		/// </summary>
+		/// <remarks>Use with <see cref="VendorID.D3connexion"/>.</remarks>
+		public const uint Euclid=0xc650;
 	}
 }

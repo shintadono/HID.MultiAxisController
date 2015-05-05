@@ -9,8 +9,8 @@ namespace HID.MultiAxisController
 	public struct SpaceMouseButtonsEventData
 	{
 		/// <summary>
-		/// Bitfield containing the buttons state.
+		/// Bitfield containing the buttons state. This has to be translated into the actual buttons.
 		/// </summary>
-		public SpaceMouseButtons ButtonState;
+		public uint ButtonState;
 	}
 }

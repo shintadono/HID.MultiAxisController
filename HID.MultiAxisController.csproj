@@ -41,14 +41,17 @@
     <Compile Include="ProductID.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpaceMouse.cs" />
+    <Compile Include="SpaceMouseButtonsEventArgs.cs" />
     <Compile Include="SpaceMouseButtons.cs" />
     <Compile Include="SpaceMouseButtonsEvent.cs" />
     <Compile Include="SpaceMouseButtonsEventData.cs" />
     <Compile Include="SpaceMouseEventHeader.cs" />
     <Compile Include="SpaceMouseEventType.cs" />
     <Compile Include="SpaceMouseRotationEvent.cs" />
+    <Compile Include="SpaceMouseRotationEventArgs.cs" />
     <Compile Include="SpaceMouseRotationEventData.cs" />
     <Compile Include="SpaceMouseTranslationEvent.cs" />
+    <Compile Include="SpaceMouseTranslationEventArgs.cs" />
     <Compile Include="SpaceMouseTranslationEventData.cs" />
     <Compile Include="SpaceMouseTranslationRotationEvent.cs" />
     <Compile Include="SpaceMouseTranslationRotationEventData.cs" />
