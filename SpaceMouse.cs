@@ -13,7 +13,7 @@ namespace HID.MultiAxisController
 	public class SpaceMouse
 	{
 		/// <summary>
-		/// Returns wether a device is a compatible devices, or not.
+		/// Returns whether a device is a compatible devices, or not.
 		/// </summary>
 		/// <param name="info">The <see cref="RID_DEVICE_INFO"/> describing the device.</param>
 		/// <returns><b>true</b> if the device is compatible with the class; otherwise, <b>false</b>.</returns>

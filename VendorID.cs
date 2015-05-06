@@ -3,7 +3,7 @@
 namespace HID.MultiAxisController
 {
 	/// <summary>
-	/// Contains Vendor IDs for makers of supported devices.
+	/// Contains vendor IDs for makers of supported devices.
 	/// </summary>
 	[CLSCompliant(false)]
 	public static class VendorID
