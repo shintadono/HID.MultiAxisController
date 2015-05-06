@@ -45,22 +45,22 @@ namespace HID.MultiAxisController
 		FRONT=0x0000000000000020,
 
 		/// <summary>
-		/// BOTTOM button pressed.
+		/// B/BOTTOM button pressed.
 		/// </summary>
 		BOTTOM=0x0000000000000040,
 
 		/// <summary>
-		/// BACK button pressed.
+		/// BK/BACK button pressed.
 		/// </summary>
 		BACK=0x0000000000000080,
 
 		/// <summary>
-		/// ROLL-CW button pressed.
+		/// CW/ROLL-CW button pressed.
 		/// </summary>
 		ROLL_CW=0x0000000000000100,
 
 		/// <summary>
-		/// ROLL-CCW button pressed.
+		/// CCW/ROLL-CCW button pressed.
 		/// </summary>
 		ROLL_CCW=0x0000000000000200,
 
