@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Win32;
 using Win32.HumanInterfaceDevices;
+using Win32.IO;
 using Win32.RawInput;
 
 namespace HID.MultiAxisController
@@ -34,7 +35,7 @@ namespace HID.MultiAxisController
 			string name=RawInput.GetRawInputDeviceName(hDevice);
 
 			IntPtr hFile=FileOperations.CreateFile(name, GENERIC.READ|GENERIC.WRITE, FILE_SHARE.READ|FILE_SHARE.WRITE, IntPtr.Zero,
-				Win32.FileMode.OPEN_EXISTING, FILE_ATTRIBUTE.NORMAL, IntPtr.Zero);
+				FileMode.OPEN_EXISTING, FILE_ATTRIBUTE.NORMAL, IntPtr.Zero);
 
 			if(hFile!=FileOperations.INVALID_HANDLE_VALUE)
 			{
