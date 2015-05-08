@@ -5,7 +5,7 @@ namespace HID.MultiAxisController
 	/// <summary>
 	/// Contains a translation event record of a SpaceMouse/SpaceNavigator/SpaceExplorer/... raw input event.
 	/// </summary>
-	/// <remarks>This structure follows <see cref="Win32.RawInput.RAWINPUTHEADER"/> in a
+	/// <remarks>This structure follows <see cref="Win32.IO.RawInput.RAWINPUTHEADER"/> in a
 	/// <see cref="Win32.WM.INPUT">WM_INPUT</see> raw input dataset.</remarks>
 	[StructLayout(LayoutKind.Sequential, Pack=1)]
 	public struct SpaceMouseTranslationEvent

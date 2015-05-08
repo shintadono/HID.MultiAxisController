@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Win32;
-using Win32.HumanInterfaceDevices;
 using Win32.IO;
-using Win32.RawInput;
+using Win32.IO.HumanInterfaceDevices;
+using Win32.IO.RawInput;
 
 namespace HID.MultiAxisController
 {
